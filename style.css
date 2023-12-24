@@ -1,7 +1,12 @@
-
-.body{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
     background-color: #F5F8FA;
-    font-family: montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sora', sans-serif;
     padding: 2rem;
 }
 
@@ -16,8 +21,9 @@ nav{
 ul{
     display: flex;
     align-items: center;
+     gap: 20px;
     list-style: none;
-    gap: 20px;
+   
     text-decoration: none;
 }
 
@@ -38,8 +44,7 @@ ul{
 }
 
 .left{
-    flex: 50%;
-    background-color: white;
+    background-color: #ffffff;
     padding: 2rem;
     box-shadow: -1px 4px 10px 1px grey;
 }
@@ -88,10 +93,10 @@ input{
 .cvc{
     display: flex;
     height: 37px;
-    width: 5 rem;
+    width: 5rem;
 }
 
-.one, .two{
+.one,.two{
     display: flex;
     gap: 0.5rem;
     margin: 1rem 0;
@@ -125,8 +130,7 @@ input:focus{
 }
 
 .right{
-    flex: 50%;
-    color: white;
+    color: #ffffff;
     background-color: #0f6ba9;
     padding: 2rem;
 }
@@ -193,7 +197,7 @@ p a{
     text-decoration: none;
     border-bottom: 0.1rem solid black;
     color: grey;
-    margin-right: 600px;
+    margin-right: 200px;
 }
 
 .support img{
@@ -201,8 +205,58 @@ p a{
     height: 1rem;
 }
 
+.empty{
+    height: 2rem;
+}
+
 .stripe-pic{
     margin-left: 250px;
 }
 
+.freelancer{
+    margin: 2rem 0;
+}
 
+.benefits p{
+        margin: 1rem 0;
+}
+
+.need-site{
+    margin: 3.5rem;
+}
+
+.agency-plan{
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 0.2rem solid rgb(131, 222, 255);
+}
+
+.kirk{
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.kirk{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.kirk p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.2em;
+    font-size: 15px;
+}
+
+footer{
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 5rem;
+}
+
+footer span{
+    color: #0f6ba9
+}
